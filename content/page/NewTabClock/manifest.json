@@ -1,0 +1,21 @@
+{
+   "author": "Niush Sitaula",
+   "browser_action": {
+      "default_icon": "img/icon16.png"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "A Minimal New Tab Page",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "incognito": "split",
+   "manifest_version": 2,
+   "name": "Minimal New Tab",
+   "offline_enabled": true,
+   "version": "0.3",
+   "minimum_chrome_version": "55"
+}
