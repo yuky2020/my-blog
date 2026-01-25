@@ -2,7 +2,7 @@
 title: "The Need for Speed: How 5G and Wi-Fi 6/7 are Shaping the Future of Connectivity"
 description: "A look at the next generation of wireless technologies and how they will enable a new wave of innovation."
 slug: "advanced-connectivity"
-date: 2026-01-31T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Wireless

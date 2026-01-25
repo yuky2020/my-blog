@@ -2,7 +2,7 @@
 title: "The Foundation of Cloud-Native: An Introduction to Container Networking"
 description: "A look at how containers are networked and how this is enabling the cloud-native revolution."
 slug: "container-networking"
-date: 2026-02-11T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Cloud

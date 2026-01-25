@@ -2,7 +2,7 @@
 title: "Beyond Monitoring: An Introduction to Network Observability"
 description: "A look at how network observability is providing deeper insights into the health and performance of today's complex networks."
 slug: "network-observability"
-date: 2026-02-07T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
 tags:

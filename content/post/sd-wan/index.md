@@ -2,7 +2,7 @@
 title: "The Evolution of the WAN: An Introduction to SD-WAN"
 description: "A look at how Software-Defined Wide Area Networking (SD-WAN) is transforming the way organizations connect their branch offices to the cloud."
 slug: "sd-wan"
-date: 2026-02-04T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
 tags:

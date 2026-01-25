@@ -2,7 +2,7 @@
 title: "One Network, Many Services: An Introduction to Network Slicing"
 description: "A look at how network slicing is being used to create multiple virtual networks on top of a single physical network."
 slug: "network-slicing"
-date: 2026-02-10T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - 5G

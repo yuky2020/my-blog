@@ -2,7 +2,7 @@
 title: "Automate or Stagnate: The Rise of Network Infrastructure Automation"
 description: "Exploring the tools and techniques that are enabling network engineers to automate repetitive tasks and build more agile and reliable networks."
 slug: "network-infrastructure-automation"
-date: 2026-01-28T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Automation

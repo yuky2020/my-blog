@@ -2,7 +2,7 @@
 title: "The Future of Networking: An Introduction to Network-as-a-Service (NaaS)"
 description: "Exploring the shift from traditional network procurement to a more flexible and scalable subscription-based model."
 slug: "network-as-a-service-naas"
-date: 2026-01-30T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Cloud

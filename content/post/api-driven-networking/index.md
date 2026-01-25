@@ -2,7 +2,7 @@
 title: "The Programmable Network: An Introduction to API-Driven Networking"
 description: "A look at how APIs are being used to automate and orchestrate network services."
 slug: "api-driven-networking"
-date: 2026-02-08T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Automation

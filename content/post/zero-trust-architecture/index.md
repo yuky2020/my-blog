@@ -2,7 +2,7 @@
 title: "Zero Trust Architecture: A New Paradigm for Network Security"
 description: "Moving beyond the traditional perimeter-based security model to a world where no user or device is trusted by default."
 slug: "zero-trust-architecture"
-date: 2026-01-27T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Security

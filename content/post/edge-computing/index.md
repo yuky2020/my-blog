@@ -2,7 +2,7 @@
 title: "The Edge of Tomorrow: An Introduction to Edge Computing"
 description: "Exploring the shift from centralized cloud computing to a more distributed model where data is processed at the edge of the network."
 slug: "edge-computing"
-date: 2026-01-29T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Cloud

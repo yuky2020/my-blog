@@ -2,7 +2,7 @@
 title: "Networking for the Cloud-Native Era: An Introduction to Cloud-Native Networking"
 description: "A look at how networking is evolving to meet the needs of cloud-native applications."
 slug: "cloud-native-networking"
-date: 2026-02-09T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Cloud

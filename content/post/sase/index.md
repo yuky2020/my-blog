@@ -2,7 +2,7 @@
 title: "The Convergence of Networking and Security: An Introduction to SASE"
 description: "A look at how Secure Access Service Edge (SASE) is combining networking and security into a single, cloud-delivered service."
 slug: "sase"
-date: 2026-02-05T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Security

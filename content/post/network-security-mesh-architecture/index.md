@@ -2,7 +2,7 @@
 title: "Beyond the Perimeter: An Introduction to Network Security Mesh Architecture"
 description: "A look at a new approach to security that provides a more flexible and scalable way to protect today's distributed networks."
 slug: "network-security-mesh-architecture"
-date: 2026-02-01T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Security

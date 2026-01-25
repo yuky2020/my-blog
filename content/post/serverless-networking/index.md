@@ -2,7 +2,7 @@
 title: "The Next Frontier in Cloud-Native: An Introduction to Serverless Networking"
 description: "A look at how serverless computing is changing the way we think about networking."
 slug: "serverless-networking"
-date: 2026-02-12T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Cloud

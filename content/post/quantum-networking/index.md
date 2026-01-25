@@ -2,7 +2,7 @@
 title: "The Quantum Leap: An Introduction to Quantum Networking"
 description: "A glimpse into the future of networking, where quantum mechanics will be used to create a new generation of ultra-secure and powerful networks."
 slug: "quantum-networking"
-date: 2026-02-03T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Future Tech

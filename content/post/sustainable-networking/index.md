@@ -2,7 +2,7 @@
 title: "Green Networking: The Rise of Sustainable Networking"
 description: "A look at how the networking industry is working to reduce its environmental impact."
 slug: "sustainable-networking"
-date: 2026-02-02T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Green Tech

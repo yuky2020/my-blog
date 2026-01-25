@@ -2,7 +2,7 @@
 title: "The Network Engineer of Tomorrow: The Future of Network Engineering"
 description: "A look at how the role of the network engineer is changing in the age of cloud, automation, and AI."
 slug: "future-of-network-engineering"
-date: 2026-02-13T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
     - Careers

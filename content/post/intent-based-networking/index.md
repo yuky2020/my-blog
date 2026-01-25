@@ -2,7 +2,7 @@
 title: "The Self-Driving Network: An Introduction to Intent-Based Networking"
 description: "A look at how Intent-Based Networking (IBN) is using artificial intelligence and machine learning to create self-driving networks."
 slug: "intent-based-networking"
-date: 2026-02-06T10:00:00+02:00
+date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
 tags:
