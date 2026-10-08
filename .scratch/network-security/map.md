@@ -35,6 +35,7 @@ e il lavoro è in push sul repo.
 - [Sezione lab della roadmap](issues/15-roadmap-lab-section.md): post 0 aggiornato a containerlab + OVS.
 - [Fatti tecnici e stesura dei capitoli](issues/13-write-chapter-02.md): scritti tutti i capitoli 02–11; build verde 447 pagine.
 - [Articoli extra oltre la serie](issues/16-extra-articles.md): SSH hardening, WPA3, 802.1X/NAC, mTLS, eBPF.
+- [Articoli extra, secondo lotto](issues/17-extra-articles-batch-2.md): DHCP snooping/DAI, SPF/DKIM/DMARC, microsegmentazione, SIEM, DNS tunneling.
 
 ## Not yet specified
 
