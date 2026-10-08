@@ -1,2 +1,7 @@
 public
 resources
+# Skill installate localmente, non contenuti del blog
+.agents/
+.claude/
+.hugo_build.lock
+skills-lock.json

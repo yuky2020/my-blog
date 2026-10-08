@@ -1,0 +1,3 @@
+# Hugo >= 0.15x blocca i file .html in content/ per default.
+# Le pagine in content/page/ (about, code, game, NewTabClock) sono HTML: le permettiamo.
+allowContent = [".*"]
