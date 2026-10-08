@@ -1,0 +1,35 @@
+{{ define "body-class" }}template-home{{ end }}
+
+{{ define "main" }}
+    {{- /* Hero di benvenuto: testo modificabile da content/_index.md (params) con fallback. */ -}}
+    {{- $p := .Params -}}
+    <section class="home-hero">
+        <div class="home-hero__inner">
+            <p class="home-hero__eyebrow">{{ default "Networking · Network Security" $p.hero_eyebrow }}</p>
+            <h1 class="home-hero__title">{{ default "Reti, sicurezza e qualche esperimento" $p.hero_title }}</h1>
+            <p class="home-hero__subtitle">{{ default "Appunti e guide pratiche su reti e sicurezza: dai fondamenti del routing agli attacchi di livello 2, firewall, TLS, Zero Trust e laboratori riproducibili." $p.hero_subtitle }}</p>
+            <div class="home-hero__actions">
+                <a class="home-hero__btn home-hero__btn--primary" href="{{ "p/network-security-roadmap/" | relURL }}">Inizia dalla serie Network Security</a>
+                <a class="home-hero__btn" href="{{ "categories/" | relURL }}">Esplora le categorie</a>
+                <a class="home-hero__btn" href="{{ "archives/" | relURL }}">Archivio</a>
+            </div>
+        </div>
+    </section>
+
+    {{- $paginator := partial "helper/paginator.html" . -}}
+
+    <h2 class="home-section-title">Ultimi articoli</h2>
+
+    <section class="article-list">
+        {{ range $index, $element := $paginator.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
