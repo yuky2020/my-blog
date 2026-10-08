@@ -4,6 +4,12 @@ languageCode = "en-us"
 paginate = 5
 title = "My personal blog"
 
+# Costruisci anche i post con data futura rispetto all'orologio del build server.
+# Lo script di build esterno può avere la data indietro rispetto alle date dei post
+# (retrodatati/programmati): senza questo, Hugo li escluderebbe e la homepage non
+# mostrerebbe gli ultimi articoli. Default di Hugo = false.
+buildFuture = true
+
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
 DefaultContentLanguage = "en"
