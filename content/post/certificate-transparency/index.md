@@ -23,7 +23,7 @@ toc: true
 math: true
 links:
   - title: "RFC 6962 — Certificate Transparency"
-    description: La specifica originale di CT (v1): log append-only, SCT, Merkle tree.
+    description: "La specifica originale di CT (v1): log append-only, SCT, Merkle tree."
     website: https://www.rfc-editor.org/rfc/rfc6962
   - title: "RFC 9162 — Certificate Transparency Version 2.0"
     description: L'evoluzione del protocollo, che rende obsoleta la RFC 6962.
