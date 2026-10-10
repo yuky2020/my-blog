@@ -16,6 +16,20 @@
         </div>
     </section>
 
+    {{- with $p.series }}
+    <h2 class="home-section-title">Le serie</h2>
+    <section class="home-series">
+        {{- range . }}
+        <a class="home-series__card" href="{{ printf "p/%s/" .slug | relURL }}">
+            <span class="home-series__count">{{ .count }}</span>
+            <span class="home-series__title">{{ .title }}</span>
+            <span class="home-series__desc">{{ .description }}</span>
+            <span class="home-series__cta">Vai alla serie →</span>
+        </a>
+        {{- end }}
+    </section>
+    {{- end }}
+
     {{- $paginator := partial "helper/paginator.html" . -}}
 
     <h2 class="home-section-title">Ultimi articoli</h2>

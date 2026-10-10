@@ -86,3 +86,54 @@
     font-size: 1.4rem;
     color: var(--card-text-color-main);
 }
+
+.home-series {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: var(--section-separation, 40px);
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 20px;
+        border-radius: var(--card-border-radius, 12px);
+        background: var(--card-background);
+        box-shadow: var(--shadow-l1);
+        text-decoration: none;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-l2);
+        }
+    }
+
+    &__count {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--accent-color, #e63946);
+    }
+
+    &__title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--card-text-color-main);
+    }
+
+    &__desc {
+        flex: 1;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        color: var(--card-text-color-secondary);
+    }
+
+    &__cta {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--accent-color, #e63946);
+    }
+}
