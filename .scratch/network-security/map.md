@@ -37,6 +37,7 @@ e il lavoro è in push sul repo.
 - [Articoli extra oltre la serie](issues/16-extra-articles.md): SSH hardening, WPA3, 802.1X/NAC, mTLS, eBPF.
 - [Articoli extra, secondo lotto](issues/17-extra-articles-batch-2.md): DHCP snooping/DAI, SPF/DKIM/DMARC, microsegmentazione, SIEM, DNS tunneling.
 - [Certificate Transparency](../../content/post/certificate-transparency/index.md): log pubblici, SCT, Merkle tree, CAA e monitoring (2026-10-09).
+- [Encrypted Client Hello](../../content/post/encrypted-client-hello/index.md): SNI in chiaro, HPKE, record HTTPS e impatto su firewall/IDS (2026-10-10).
 
 ## Not yet specified
 
