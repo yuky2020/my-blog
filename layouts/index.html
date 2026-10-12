@@ -5,34 +5,54 @@
     {{- $p := .Params -}}
     <section class="home-hero">
         <div class="home-hero__inner">
-            <p class="home-hero__eyebrow">{{ default "Networking · Network Security" $p.hero_eyebrow }}</p>
+            <p class="home-hero__eyebrow">{{ default "Networking · Network Security · Crittografia" $p.hero_eyebrow }}</p>
             <h1 class="home-hero__title">{{ default "Reti, sicurezza e qualche esperimento" $p.hero_title }}</h1>
-            <p class="home-hero__subtitle">{{ default "Appunti e guide pratiche su reti e sicurezza: dai fondamenti del routing agli attacchi di livello 2, firewall, TLS, Zero Trust e laboratori riproducibili." $p.hero_subtitle }}</p>
+            <p class="home-hero__subtitle">{{ default "Appunti e guide pratiche su reti e sicurezza: dai fondamenti del routing agli attacchi di livello 2, firewall, TLS, Zero Trust, DevSecOps e crittografia applicata. Serie organizzate e laboratori riproducibili." $p.hero_subtitle }}</p>
             <div class="home-hero__actions">
                 <a class="home-hero__btn home-hero__btn--primary" href="{{ "p/network-security-roadmap/" | relURL }}">Inizia dalla serie Network Security</a>
                 <a class="home-hero__btn" href="{{ "categories/" | relURL }}">Esplora le categorie</a>
                 <a class="home-hero__btn" href="{{ "archives/" | relURL }}">Archivio</a>
             </div>
+            {{- $totalPosts := len (where site.RegularPages "Section" "post") -}}
+            <ul class="home-hero__stats">
+                <li><strong>{{ $totalPosts }}+</strong><span>articoli</span></li>
+                <li><strong>4</strong><span>serie complete</span></li>
+                <li><strong>∞</strong><span>laboratori</span></li>
+            </ul>
         </div>
     </section>
 
-    {{- with $p.series }}
-    <h2 class="home-section-title">Le serie</h2>
+    {{- /* NUOVA SEZIONE: le serie tematiche, come percorsi di lettura guidati. */ -}}
+    {{- $series := slice
+        (dict "title" "Network Security" "slug" "network-security-roadmap" "meta" "Roadmap + serie" "glyph" "🛡️" "desc" "Dai fondamenti agli attacchi di livello 2, firewall, IDS/IPS, osservabilità e homelab.")
+        (dict "title" "Zero Trust" "slug" "zero-trust-la-serie" "meta" "20 capitoli" "glyph" "🔐" "desc" "Oltre il perimetro: identità, policy PDP/PEP, microsegmentazione, ZTNA, SASE e mTLS.")
+        (dict "title" "DevSecOps in pratica" "slug" "devsecops-la-serie" "meta" "30 capitoli" "glyph" "⚙️" "desc" "Shift-left, supply chain, SBOM, pipeline CI/CD, runtime Kubernetes e cultura della sicurezza.")
+        (dict "title" "Crittografia applicata" "slug" "crittografia-applicata-la-serie" "meta" "10 capitoli" "glyph" "🔑" "desc" "AEAD, hashing, HMAC, password, chiavi asimmetriche, firme, PKI e post-quantum.")
+    -}}
+    <div class="home-section-head">
+        <h2 class="home-section-title">Le serie</h2>
+        <p class="home-section-sub">Percorsi di lettura ordinati, dal primo capitolo all'ultimo.</p>
+    </div>
     <section class="home-series">
-        {{- range . }}
-        <a class="home-series__card" href="{{ printf "p/%s/" .slug | relURL }}">
-            <span class="home-series__count">{{ .count }}</span>
-            <span class="home-series__title">{{ .title }}</span>
-            <span class="home-series__desc">{{ .description }}</span>
-            <span class="home-series__cta">Vai alla serie →</span>
+        {{- range $s := $series -}}
+        {{- $page := site.GetPage (printf "/post/%s" $s.slug) -}}
+        {{- $href := relURL (printf "p/%s/" $s.slug) -}}
+        {{- if $page }}{{ $href = $page.Permalink }}{{ end -}}
+        <a class="series-card" href="{{ $href }}">
+            <span class="series-card__glyph" aria-hidden="true">{{ $s.glyph }}</span>
+            <span class="series-card__meta">{{ $s.meta }}</span>
+            <h3 class="series-card__title">{{ $s.title }}</h3>
+            <p class="series-card__desc">{{ $s.desc }}</p>
+            <span class="series-card__cta">Inizia la serie →</span>
         </a>
-        {{- end }}
+        {{- end -}}
     </section>
-    {{- end }}
 
     {{- $paginator := partial "helper/paginator.html" . -}}
 
-    <h2 class="home-section-title">Ultimi articoli</h2>
+    <div class="home-section-head">
+        <h2 class="home-section-title">Ultimi articoli</h2>
+    </div>
 
     <section class="article-list">
         {{ range $index, $element := $paginator.Pages }}
