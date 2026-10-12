@@ -23,7 +23,7 @@ toc: true
 math: true
 links:
   - title: "RFC 9849 — TLS Encrypted Client Hello"
-    description: La specifica di ECH: ClientHelloInner/Outer, HPKE e retry.
+    description: "La specifica di ECH: ClientHelloInner/Outer, HPKE e retry."
     website: https://www.rfc-editor.org/rfc/rfc9849
   - title: "RFC 9848 — Bootstrapping TLS Encrypted ClientHello with DNS Service Bindings"
     description: Come il server pubblica la ECHConfig nei record DNS SVCB/HTTPS.
