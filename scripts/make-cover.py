@@ -23,6 +23,11 @@ GLYPHS = {
     "eye": "M10 120 C60 40 180 40 230 120 C180 200 60 200 10 120 Z M120 85 A35 35 0 1 0 120.1 85",
     "network": "M120 30 L40 120 L120 210 L200 120 Z M120 30 V210 M40 120 H200",
     "key": "M70 120 A45 45 0 1 0 70.1 120 M115 120 H230 M190 120 V160 M220 120 V150",
+    # Cubo isometrico: silhouette esterna + i tre spigoli frontali.
+    "cube": "M120 30 L210 80 L210 170 L120 220 L30 170 L30 80 Z"
+            " M120 30 L120 130 M120 130 L210 80 M120 130 L30 80 M120 130 L120 220",
+    # Linee di strato impilate (effetto layer di stampa).
+    "layers": "M50 185 H190 M60 145 H180 M70 105 H170 M80 65 H160",
 }
 
 
