@@ -38,6 +38,7 @@ e il lavoro è in push sul repo.
 - [Articoli extra, secondo lotto](issues/17-extra-articles-batch-2.md): DHCP snooping/DAI, SPF/DKIM/DMARC, microsegmentazione, SIEM, DNS tunneling.
 - [Certificate Transparency](../../content/post/certificate-transparency/index.md): log pubblici, SCT, Merkle tree, CAA e monitoring (2026-10-09).
 - [Encrypted Client Hello](../../content/post/encrypted-client-hello/index.md): SNI in chiaro, HPKE, record HTTPS e impatto su firewall/IDS (2026-10-10).
+- [Honeypot e deception](../../content/post/honeypots-and-deception/index.md): honeypot, honeytoken, Cowrie, isolamento con nftables e alert al SIEM (2026-10-12).
 
 ## Not yet specified
 
