@@ -39,6 +39,7 @@ e il lavoro è in push sul repo.
 - [Certificate Transparency](../../content/post/certificate-transparency/index.md): log pubblici, SCT, Merkle tree, CAA e monitoring (2026-10-09).
 - [Encrypted Client Hello](../../content/post/encrypted-client-hello/index.md): SNI in chiaro, HPKE, record HTTPS e impatto su firewall/IDS (2026-10-10).
 - [Honeypot e deception](../../content/post/honeypots-and-deception/index.md): honeypot, honeytoken, Cowrie, isolamento con nftables e alert al SIEM (2026-10-12).
+- [Sicurezza IPv6: rogue RA e RA Guard](../../content/post/ipv6-security-ra-guard/index.md): Neighbor Discovery, rogue RA con scapy, RA Guard, nftables su bridge e hardening host (2026-10-13).
 
 ## Not yet specified
 
