@@ -41,6 +41,7 @@ e il lavoro è in push sul repo.
 - [Honeypot e deception](../../content/post/honeypots-and-deception/index.md): honeypot, honeytoken, Cowrie, isolamento con nftables e alert al SIEM (2026-10-12).
 - [Sicurezza IPv6: rogue RA e RA Guard](../../content/post/ipv6-security-ra-guard/index.md): Neighbor Discovery, rogue RA con scapy, RA Guard, nftables su bridge e hardening host (2026-10-13).
 - [Port knocking e Single Packet Authorization](../../content/post/port-knocking-spa/index.md): knock sequence con set dinamici nftables, replay, SPA con fwknop (HMAC/AES) (2026-10-14).
+- [Zeek e Network Security Monitoring](../../content/post/zeek-network-security-monitoring/index.md): event engine, log conn/dns/ssl, beaconing con coefficiente di variazione e script Notice (2026-10-15).
 
 ## Not yet specified
 
