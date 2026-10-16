@@ -42,6 +42,7 @@ e il lavoro è in push sul repo.
 - [Sicurezza IPv6: rogue RA e RA Guard](../../content/post/ipv6-security-ra-guard/index.md): Neighbor Discovery, rogue RA con scapy, RA Guard, nftables su bridge e hardening host (2026-10-13).
 - [Port knocking e Single Packet Authorization](../../content/post/port-knocking-spa/index.md): knock sequence con set dinamici nftables, replay, SPA con fwknop (HMAC/AES) (2026-10-14).
 - [Zeek e Network Security Monitoring](../../content/post/zeek-network-security-monitoring/index.md): event engine, log conn/dns/ssl, beaconing con coefficiente di variazione e script Notice (2026-10-15).
+- [Web Application Firewall e OWASP CRS](../../content/post/web-application-firewall-owasp-crs/index.md): livello 7, anomaly scoring con KaTeX, evasione per divergenza di parsing, ModSecurity/Coraza e tuning dei falsi positivi (2026-10-16).
 
 ## Not yet specified
 
