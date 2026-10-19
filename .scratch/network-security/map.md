@@ -43,6 +43,7 @@ e il lavoro è in push sul repo.
 - [Port knocking e Single Packet Authorization](../../content/post/port-knocking-spa/index.md): knock sequence con set dinamici nftables, replay, SPA con fwknop (HMAC/AES) (2026-10-14).
 - [Zeek e Network Security Monitoring](../../content/post/zeek-network-security-monitoring/index.md): event engine, log conn/dns/ssl, beaconing con coefficiente di variazione e script Notice (2026-10-15).
 - [Web Application Firewall e OWASP CRS](../../content/post/web-application-firewall-owasp-crs/index.md): livello 7, anomaly scoring con KaTeX, evasione per divergenza di parsing, ModSecurity/Coraza e tuning dei falsi positivi (2026-10-16).
+- [Port scanning con Nmap](../../content/post/port-scanning-nmap-detection/index.md): SYN/connect/UDP scan, tempo di scansione con KaTeX, set dinamici nftables e soglie Suricata (2026-10-19).
 
 ## Not yet specified
 
