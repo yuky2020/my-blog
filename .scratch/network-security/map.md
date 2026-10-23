@@ -47,6 +47,7 @@ e il lavoro è in push sul repo.
 - [ICMP e sicurezza](../../content/post/icmp-security-filtering/index.md): tipi ICMP/ICMPv6, PMTUD, ricognizione, tunnel e redirect, filtro selettivo con nftables (2026-10-20).
 - [NTP e sicurezza](../../content/post/ntp-security-nts/index.md): offset/delay con KaTeX, delay attack, amplificazione monlist, NTS (RFC 8915), chrony e nftables (2026-10-21).
 - [DANE e TLSA](../../content/post/dane-tlsa-dnssec/index.md): ancoraggio dei certificati TLS nel DNS firmato DNSSEC, record TLSA, Postfix via DANE per SMTP, rotazione sovrapposta (2026-10-22).
+- [Anti-spoofing: BCP 38 e uRPF](../../content/post/anti-spoofing-bcp38-urpf/index.md): ingress filtering, strict/feasible/loose uRPF, rp_filter, nftables e Cisco, test con hping3 (2026-10-23).
 
 ## Not yet specified
 
