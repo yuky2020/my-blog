@@ -49,6 +49,7 @@ e il lavoro è in push sul repo.
 - [DANE e TLSA](../../content/post/dane-tlsa-dnssec/index.md): ancoraggio dei certificati TLS nel DNS firmato DNSSEC, record TLSA, Postfix via DANE per SMTP, rotazione sovrapposta (2026-10-22).
 - [Anti-spoofing: BCP 38 e uRPF](../../content/post/anti-spoofing-bcp38-urpf/index.md): ingress filtering, strict/feasible/loose uRPF, rp_filter, nftables e Cisco, test con hping3 (2026-10-23).
 - [TLS inspection](../../content/post/tls-inspection-forward-proxy/index.md): forward proxy, peek/splice/bump con Squid, CA di intercettazione vincolata, verifica dei certificati reali (2026-10-26).
+- [MTA-STS e TLS-RPT](../../content/post/mta-sts-tls-rpt/index.md): downgrade STARTTLS, policy HTTPS, testing/enforce, max_age con KaTeX, report TLS-RPT (2026-10-27).
 
 ## Not yet specified
 
