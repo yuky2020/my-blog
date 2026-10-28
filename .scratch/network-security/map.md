@@ -51,6 +51,7 @@ e il lavoro è in push sul repo.
 - [TLS inspection](../../content/post/tls-inspection-forward-proxy/index.md): forward proxy, peek/splice/bump con Squid, CA di intercettazione vincolata, verifica dei certificati reali (2026-10-26).
 - [MTA-STS e TLS-RPT](../../content/post/mta-sts-tls-rpt/index.md): downgrade STARTTLS, policy HTTPS, testing/enforce, max_age con KaTeX, report TLS-RPT (2026-10-27).
 - [SNMP e SNMPv3](../../content/post/snmp-security-snmpv3/index.md): community string, enumerazione e amplificazione, USM con key localization (KaTeX), authPriv, view e nftables (2026-10-27).
+- [Spanning Tree sotto attacco](../../content/post/stp-attacks-bpdu-guard/index.md): elezione del root bridge, root takeover su una porta d'accesso, BPDU Guard e Root Guard su bridge Linux (2026-10-28).
 
 ## Not yet specified
 
