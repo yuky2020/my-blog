@@ -52,6 +52,7 @@ e il lavoro è in push sul repo.
 - [MTA-STS e TLS-RPT](../../content/post/mta-sts-tls-rpt/index.md): downgrade STARTTLS, policy HTTPS, testing/enforce, max_age con KaTeX, report TLS-RPT (2026-10-27).
 - [SNMP e SNMPv3](../../content/post/snmp-security-snmpv3/index.md): community string, enumerazione e amplificazione, USM con key localization (KaTeX), authPriv, view e nftables (2026-10-27).
 - [Spanning Tree sotto attacco](../../content/post/stp-attacks-bpdu-guard/index.md): elezione del root bridge, root takeover su una porta d'accesso, BPDU Guard e Root Guard su bridge Linux (2026-10-28).
+- [Control plane protection](../../content/post/control-plane-policing/index.md): punt path, token bucket con KaTeX, flood verso BGP, ACL di infrastruttura, GTSM (RFC 5082) e CoPP con nftables (2026-10-29).
 
 ## Not yet specified
 
