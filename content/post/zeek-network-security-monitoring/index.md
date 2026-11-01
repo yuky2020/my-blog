@@ -25,7 +25,7 @@ toc: true
 math: true
 links:
   - title: "Zeek Documentation"
-    description: Documentazione ufficiale: installazione, log, scripting language e frameworks.
+    description: "Documentazione ufficiale: installazione, log, scripting language e frameworks."
     website: https://docs.zeek.org/en/master/
   - title: "Zeek — Notice Framework"
     description: Il framework per generare, filtrare e inoltrare gli alert dagli script.

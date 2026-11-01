@@ -28,7 +28,7 @@ links:
     description: La specifica di NTPv4, con timestamp, algoritmi di selezione e modalità di funzionamento.
     website: https://www.rfc-editor.org/rfc/rfc5905
   - title: "RFC 8915 — Network Time Security for the Network Time Protocol"
-    description: NTS: handshake NTP-KE su TLS e autenticazione dei pacchetti NTP con cookie e AEAD.
+    description: "NTS: handshake NTP-KE su TLS e autenticazione dei pacchetti NTP con cookie e AEAD."
     website: https://www.rfc-editor.org/rfc/rfc8915
   - title: "RFC 8633 — Network Time Protocol Best Current Practices"
     description: Raccomandazioni operative per configurare e proteggere server e client NTP.

@@ -25,7 +25,7 @@ toc: true
 math: true
 links:
   - title: "RFC 3411 — An Architecture for Describing SNMP Management Frameworks"
-    description: L'architettura SNMPv3: engine, security model, access control (VACM) e PDU.
+    description: "L'architettura SNMPv3: engine, security model, access control (VACM) e PDU."
     website: https://www.rfc-editor.org/rfc/rfc3411
   - title: "RFC 3414 — User-based Security Model (USM) for SNMPv3"
     description: Autenticazione (HMAC), privacy (cifratura), key localization e protezione dai replay con engine boots/time.
