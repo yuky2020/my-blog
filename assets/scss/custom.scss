@@ -259,3 +259,54 @@ html[data-scheme="dark"] {
         }
     }
 }
+
+/* ---------------------------------------------------------------------------
+   "Esplora per area": chip delle 6 categorie in home. Il colore della
+   categoria arriva dalla variabile inline --chip impostata nel template.
+--------------------------------------------------------------------------- */
+.home-cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: var(--section-separation, 40px);
+
+    .cat-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 16px;
+        border-radius: 100px;
+        background: var(--card-background);
+        box-shadow: var(--shadow-l1);
+        text-decoration: none;
+        color: var(--card-text-color-main);
+        font-weight: 600;
+        font-size: 0.95rem;
+        border: 1px solid transparent;
+        transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+        &__dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--chip, var(--accent-color));
+            flex: 0 0 auto;
+        }
+
+        &__count {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #fff;
+            background: var(--chip, var(--accent-color));
+            border-radius: 100px;
+            padding: 1px 9px;
+            line-height: 1.6;
+        }
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-l2);
+            border-color: var(--chip, var(--accent-color));
+        }
+    }
+}

@@ -7,7 +7,7 @@
         <div class="home-hero__inner">
             <p class="home-hero__eyebrow">{{ default "Networking · Network Security · Crittografia" $p.hero_eyebrow }}</p>
             <h1 class="home-hero__title">{{ default "Reti, sicurezza e qualche esperimento" $p.hero_title }}</h1>
-            <p class="home-hero__subtitle">{{ default "Appunti e guide pratiche su reti e sicurezza: dai fondamenti del routing agli attacchi di livello 2, firewall, TLS, Zero Trust, DevSecOps e crittografia applicata. Serie organizzate e laboratori riproducibili." $p.hero_subtitle }}</p>
+            <p class="home-hero__subtitle">{{ default "Appunti e guide pratiche su reti, sicurezza e dintorni: dai fondamenti del routing agli attacchi di livello 2, firewall, TLS, Zero Trust, DevSecOps, crittografia, sicurezza del cloud e stampa 3D. Serie organizzate e laboratori riproducibili." $p.hero_subtitle }}</p>
             <div class="home-hero__actions">
                 <a class="home-hero__btn home-hero__btn--primary" href="{{ "p/network-security-roadmap/" | relURL }}">Inizia dalla serie Network Security</a>
                 <a class="home-hero__btn" href="{{ "categories/" | relURL }}">Esplora le categorie</a>
@@ -46,6 +46,32 @@
             <h3 class="series-card__title">{{ $s.title }}</h3>
             <p class="series-card__desc">{{ $s.desc }}</p>
             <span class="series-card__cta">Inizia la serie →</span>
+        </a>
+        {{- end -}}
+    </section>
+
+    {{- /* NUOVA SEZIONE: esplora per area tematica (le 6 categorie pulite). */ -}}
+    {{- $cats := slice
+        (dict "title" "Networking" "slug" "networking" "color" "#1d6fb8")
+        (dict "title" "Security" "slug" "security" "color" "#e63946")
+        (dict "title" "Cloud" "slug" "cloud" "color" "#0a9396")
+        (dict "title" "DevOps" "slug" "devops" "color" "#6a4c93")
+        (dict "title" "Cryptography" "slug" "cryptography" "color" "#ca6702")
+        (dict "title" "Making" "slug" "making" "color" "#2d6a4f")
+    -}}
+    <div class="home-section-head">
+        <h2 class="home-section-title">Esplora per area</h2>
+        <p class="home-section-sub">Tutti gli articoli, raccolti nelle sei aree del blog.</p>
+    </div>
+    <section class="home-cats">
+        {{- range $c := $cats -}}
+        {{- $page := site.GetPage (printf "/categories/%s" $c.slug) -}}
+        {{- $count := 0 -}}
+        {{- with $page }}{{ $count = len .Pages }}{{ end -}}
+        <a class="cat-chip" href="{{ relURL (printf "categories/%s/" $c.slug) }}" style="--chip: {{ $c.color }}">
+            <span class="cat-chip__dot" aria-hidden="true"></span>
+            <span class="cat-chip__name">{{ $c.title }}</span>
+            {{- if $count }}<span class="cat-chip__count">{{ $count }}</span>{{ end -}}
         </a>
         {{- end -}}
     </section>
