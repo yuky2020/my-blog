@@ -16,7 +16,7 @@
             {{- $totalPosts := len (where site.RegularPages "Section" "post") -}}
             <ul class="home-hero__stats">
                 <li><strong>{{ $totalPosts }}+</strong><span>articoli</span></li>
-                <li><strong>6</strong><span>serie complete</span></li>
+                <li><strong>7</strong><span>serie complete</span></li>
                 <li><strong>∞</strong><span>laboratori</span></li>
             </ul>
         </div>
@@ -30,6 +30,7 @@
         (dict "title" "Crittografia applicata" "slug" "crittografia-applicata-la-serie" "meta" "10 capitoli" "glyph" "🔑" "desc" "AEAD, hashing, HMAC, password, chiavi asimmetriche, firme, PKI e post-quantum.")
         (dict "title" "Stampa 3D in pratica" "slug" "stampa-3d-la-serie" "meta" "10 capitoli" "glyph" "🧩" "desc" "Dalla FDM allo slicing, primo layer, calibrazione, supporti, design e troubleshooting.")
         (dict "title" "Sicurezza Cloud" "slug" "sicurezza-cloud-la-serie" "meta" "20 capitoli" "glyph" "☁️" "desc" "Responsabilità condivisa, IAM, crittografia, rete, detection, postura, IaC, container, serverless e incident response.")
+        (dict "title" "Linux Hardening in pratica" "slug" "linux-hardening-la-serie" "meta" "24 capitoli" "glyph" "🐧" "desc" "Permessi, sudo, SSH, PAM, sandboxing systemd, nftables, SELinux/AppArmor, auditd, LUKS, kernel e CIS, con comandi reali.")
     -}}
     <div class="home-section-head">
         <h2 class="home-section-title">Le serie</h2>
