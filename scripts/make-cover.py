@@ -28,6 +28,8 @@ GLYPHS = {
             " M120 30 L120 130 M120 130 L210 80 M120 130 L30 80 M120 130 L120 220",
     # Linee di strato impilate (effetto layer di stampa).
     "layers": "M50 185 H190 M60 145 H180 M70 105 H170 M80 65 H160",
+    # Nuvola stilizzata: silhouette a bolle (sicurezza cloud).
+    "cloud": "M60 180 A44 44 0 0 1 66 97 A58 58 0 0 1 176 94 A42 42 0 0 1 188 180 Z",
 }
 
 
