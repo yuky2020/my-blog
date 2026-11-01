@@ -30,6 +30,21 @@ GLYPHS = {
     "layers": "M50 185 H190 M60 145 H180 M70 105 H170 M80 65 H160",
     # Nuvola stilizzata: silhouette a bolle (sicurezza cloud).
     "cloud": "M60 180 A44 44 0 0 1 66 97 A58 58 0 0 1 176 94 A42 42 0 0 1 188 180 Z",
+    # Click wheel: anello esterno + bottone centrale.
+    "wheel": "M120 10 A110 110 0 1 0 120 230 A110 110 0 1 0 120 10"
+             " M120 82 A38 38 0 1 0 120 158 A38 38 0 1 0 120 82",
+    # Disco rigido: piatto + perno + braccio della testina.
+    "disc": "M120 15 A105 105 0 1 0 120 225 A105 105 0 1 0 120 15"
+            " M104 120 A16 16 0 1 0 136 120 A16 16 0 1 0 104 120 M196 48 L142 108",
+    # Batteria: corpo + polo + una cella.
+    "battery": "M28 78 H198 V182 H28 Z M198 108 H222 V152 H198 M56 104 H92 V156 H56 Z",
+    # Chip / memoria a stato solido: quadrato con i piedini.
+    "chip": "M70 70 H170 V170 H70 Z M90 70 V42 M120 70 V42 M150 70 V42"
+            " M90 170 V198 M120 170 V198 M150 170 V198"
+            " M70 90 H42 M70 120 H42 M70 150 H42 M170 90 H198 M170 120 H198 M170 150 H198",
+    # Nota musicale: testa + gambo + bandiera.
+    "note": "M96 188 A26 26 0 1 0 148 188 A26 26 0 1 0 96 188"
+            " M148 188 V52 L198 72 V100 L148 80",
 }
 
 
