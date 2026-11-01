@@ -215,3 +215,47 @@
         }
     }
 }
+
+/* ---------------------------------------------------------------------------
+   Bottoni delle raccolte (categorie/tag) in tema scuro.
+   Default del tema: in dark --accent-color = #ecf0f1 (quasi bianco) con testo
+   nero, quindi i pill di categoria e tag diventano macchie bianche abbaglianti.
+   Qui li riportiamo alla palette del brand (#e63946): pill traslucidi,
+   bordo tenue, testo chiaro leggibile, hover più acceso. Scope solo dark.
+--------------------------------------------------------------------------- */
+html[data-scheme="dark"] {
+    --pill-bg: rgba(230, 57, 70, 0.14);
+    --pill-border: rgba(230, 57, 70, 0.38);
+    --pill-text: #ff9ba3;
+    --pill-bg-hover: rgba(230, 57, 70, 0.28);
+    --pill-text-hover: #ffd4d8;
+
+    .article-category a,
+    .article-tags a {
+        background-color: var(--pill-bg);
+        color: var(--pill-text);
+        border: 1px solid var(--pill-border);
+        box-shadow: none;
+
+        &:hover {
+            background-color: var(--pill-bg-hover);
+            color: var(--pill-text-hover);
+        }
+    }
+
+    /* Pill del tag-cloud: sidebar "Tags"/"Categorie" e pagine /categories /tags.
+       Base neutra leggibile, accento del brand al passaggio. */
+    .tagCloud .tagCloud-tags a {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.85);
+        box-shadow: none;
+        transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+        &:hover {
+            background: var(--pill-bg-hover);
+            border-color: var(--pill-border);
+            color: var(--pill-text-hover);
+        }
+    }
+}
