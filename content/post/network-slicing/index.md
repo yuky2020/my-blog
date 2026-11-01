@@ -5,11 +5,10 @@ slug: "network-slicing"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - 5G
 tags:
     - Network Slicing
     - 5G
-    - Virtualization
+    - Network Virtualization
 image: "images/1.png"
 ---
 

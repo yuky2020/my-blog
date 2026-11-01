@@ -7,7 +7,7 @@ categories:
     - Networking
     - Security
 tags:
-    - Cybersecurity
+    - Security
     - Network Security
     - Security Mesh
 image: "images/1.png"

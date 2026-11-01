@@ -5,7 +5,6 @@ slug: "bgp-security-rpki"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - BGP
     - Security
 tags:
     - BGP Security

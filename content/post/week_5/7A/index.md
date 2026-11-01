@@ -5,7 +5,7 @@ description = "Given 2 variables from a csv compute and represent the statistica
 
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

@@ -5,7 +5,7 @@ description = " Compute a frequency distribution of the meaningful words from an
 
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

@@ -4,7 +4,7 @@ date = 2019-04-26T20:03:36+02:00
 description = "Appunti Di sistemi informativi sul web "
 draft = false
 toc = false
-categories = ["appunti"]
+categories = ["Appunti"]
 tags = ["appunti","Sistemi Informativi Sul Web"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

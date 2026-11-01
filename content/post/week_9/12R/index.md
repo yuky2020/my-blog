@@ -4,7 +4,7 @@ date = 2021-11-21T20:03:36+02:00
 description = "What is the Brownian motion and what is a Wiener process"
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

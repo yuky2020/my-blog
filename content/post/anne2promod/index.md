@@ -1,15 +1,15 @@
-
-
 ---
-title: Anne 2 Pro Mods 
-description: My first keybord mode ever 
-slug: A2P Mods 
-date:  2022-06-29T20:03:36+02:00
+title: "Anne 2 Pro Mods"
+description: "My first keyboard mod ever."
+slug: "anne2pro-mods"
+date: 2022-06-29T20:03:36+02:00
 image: images/1.jpg
 categories:
-    Keyboards
+    - Making
 tags:
-     ["kbd", "mod","hack"]
+    - Keyboards
+    - Hardware
+    - Mod
 ---
 
 # Why the Anne 2 Pro

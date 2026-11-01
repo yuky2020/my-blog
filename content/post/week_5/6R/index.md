@@ -6,7 +6,7 @@ description = "Think and explain in your own words what is the role that probabi
 
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

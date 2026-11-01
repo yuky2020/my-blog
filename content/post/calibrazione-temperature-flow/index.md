@@ -6,7 +6,6 @@ date: 2026-09-08T09:00:00+02:00
 lastmod: 2026-09-08T09:00:00+02:00
 categories:
     - Making
-    - 3D Printing
 tags:
     - Stampa 3D
     - Calibrazione

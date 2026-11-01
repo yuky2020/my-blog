@@ -5,8 +5,6 @@ slug: "vmware-nsx"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - SDN
-    - Virtualization
 tags:
     - VMware NSX
     - SDN

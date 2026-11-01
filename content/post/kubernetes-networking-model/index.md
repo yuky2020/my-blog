@@ -5,7 +5,7 @@ slug: "kubernetes-networking-model"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - Kubernetes
+    - Cloud
 tags:
     - Kubernetes Networking
     - CNI

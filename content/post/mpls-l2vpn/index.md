@@ -5,8 +5,6 @@ slug: "mpls-l2vpn"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - MPLS
-    - VPN
 tags:
     - MPLS L2VPN
     - MPLS

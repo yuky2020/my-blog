@@ -4,7 +4,7 @@ date = 2021-10-28T20:03:36+02:00
 description = "Given a random variable, extract m samples of size n and plot the empirical distribution of its mean (histogram), the first and the last order statistics"
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

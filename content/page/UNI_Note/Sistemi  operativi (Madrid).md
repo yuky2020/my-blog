@@ -4,7 +4,7 @@ date = 2019-04-26T20:03:36+02:00
 description = "Appunti di sistemi operativi dell' universita di roma tre "
 draft = false
 toc = false
-categories = ["Appunti "]
+categories = ["Appunti"]
 tags = ["linux", "Sistemi Operativi","appunti","SystemasOperativos"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

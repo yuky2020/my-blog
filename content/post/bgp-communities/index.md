@@ -5,7 +5,6 @@ slug: "bgp-communities"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - BGP
 tags:
     - BGP
     - BGP Communities

@@ -9,7 +9,7 @@ categories:
 tags:
     - Zero Trust
     - ZTA
-    - Cybersecurity
+    - Security
     - Network Security
 image: "images/1.png"
 ---

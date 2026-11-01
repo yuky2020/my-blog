@@ -6,7 +6,6 @@ date: 2026-10-13T09:00:00+02:00
 lastmod: 2026-10-13T09:00:00+02:00
 categories:
     - Cloud
-    - Cloud Security
 tags:
     - Cloud
     - Multi-account

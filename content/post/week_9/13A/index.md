@@ -4,7 +4,7 @@ date = 2021-10-28T20:03:36+02:00
 description = "Create a distribution representation( histogram or CDF) "
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

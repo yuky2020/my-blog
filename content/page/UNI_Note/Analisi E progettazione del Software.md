@@ -4,7 +4,7 @@ date = 2019-04-26T20:03:36+02:00
 description = "Appunti Analisi e Progettazione del software "
 draft = false
 toc = false
-categories = ["appunti"]
+categories = ["Appunti"]
 tags = ["appunti","Aps"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

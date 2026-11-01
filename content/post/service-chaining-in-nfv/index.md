@@ -5,7 +5,6 @@ slug: "service-chaining-in-nfv"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - NFV
 tags:
     - Service Chaining
     - NFV

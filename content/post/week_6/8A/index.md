@@ -4,7 +4,7 @@ date = 2021-10-28T20:03:36+02:00
 description = "Generate and represent m sample paths of n point each (m, n are program parameters), where each point represents a pair of:time index t, and relative frequency of success f(t)"
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

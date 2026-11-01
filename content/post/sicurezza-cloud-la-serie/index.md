@@ -7,7 +7,6 @@ lastmod: 2026-06-16T09:00:00+02:00
 weight: 2
 categories:
     - Cloud
-    - Cloud Security
 tags:
     - Cloud
     - Sicurezza Cloud

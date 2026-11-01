@@ -4,7 +4,7 @@ date = 2021-09-29T20:03:36+02:00
 description = "Statistic and its reaches out:An introduction to the world of statistics"
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

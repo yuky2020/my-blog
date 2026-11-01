@@ -5,7 +5,6 @@ slug: "vnf-lifecycle-management"
 date: 2026-01-25T10:00:00+02:00
 categories:
     - Networking
-    - NFV
 tags:
     - VNF Lifecycle Management
     - NFV

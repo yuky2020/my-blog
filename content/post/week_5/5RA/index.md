@@ -5,7 +5,7 @@ description = "The various methods to generate, from a Uniform([0,1)), all the m
 
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

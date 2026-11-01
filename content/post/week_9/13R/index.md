@@ -5,7 +5,7 @@ description = "An analog of the CLT for stochastic process"
 katex=true
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

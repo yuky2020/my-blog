@@ -4,7 +4,7 @@ date = 2019-04-26T20:03:36+02:00
 description = "Appunti basi di dati "
 draft = false
 toc = false
-categories = ["appunti"]
+categories = ["Appunti"]
 tags = ["appunti","Analisi1"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

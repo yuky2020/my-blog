@@ -5,7 +5,7 @@ description = "arithmetic mean and my own algo to compute the distribution for a
 
 draft = false
 toc = false
-categories = ["statistic"]
+categories = ["Appunti"]
 tags = ["after", "statistic"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"

@@ -5,7 +5,7 @@ slug: 1_A
 date:  2019-04-26T20:03:36+02:00
 image: images/2.png
 categories:
-    statistics
+    - Appunti
 tags:
      ["after", "statistic"]
 ---

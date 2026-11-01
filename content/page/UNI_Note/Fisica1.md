@@ -4,7 +4,7 @@ date = 2019-04-26T20:03:36+02:00
 description = "Appunti del corso di Fisica 1  "
 draft = false
 toc = false
-categories = ["appunti"]
+categories = ["Appunti"]
 tags = ["appunti","Fisica1"]
 images = [
   "https://source.unsplash.com/collection/983219/1600x900"
