@@ -55,6 +55,7 @@ e il lavoro è in push sul repo.
 - [Control plane protection](../../content/post/control-plane-policing/index.md): punt path, token bucket con KaTeX, flood verso BGP, ACL di infrastruttura, GTSM (RFC 5082) e CoPP con nftables (2026-10-29).
 - [VRRP e HSRP sotto attacco](../../content/post/vrrp-hsrp-first-hop-attacks/index.md): elezione del master senza autenticazione, dirottamento del default gateway per preemption, GTSM, filtri nftables per interfaccia e `unicast_peer` di keepalived (2026-10-30).
 - [MACsec e cifratura layer 2](../../content/post/macsec-layer2-encryption/index.md): 802.1AE, SecTAG e ICV, MKA, esaurimento del packet number con KaTeX, sniffing con bridge trasparente e configurazione `ip macsec` (2026-11-02).
+- [RTBH e BGP Flowspec](../../content/post/rtbh-bgp-flowspec-ddos-mitigation/index.md): mitigazione DDoS a monte, community BLACKHOLE (RFC 7999), Flowspec (RFC 8955), configurazioni FRR e BIRD con prefix-list `/32` (2026-11-03).
 
 ## Not yet specified
 
