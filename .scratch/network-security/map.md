@@ -57,6 +57,7 @@ e il lavoro è in push sul repo.
 - [MACsec e cifratura layer 2](../../content/post/macsec-layer2-encryption/index.md): 802.1AE, SecTAG e ICV, MKA, esaurimento del packet number con KaTeX, sniffing con bridge trasparente e configurazione `ip macsec` (2026-11-02).
 - [RTBH e BGP Flowspec](../../content/post/rtbh-bgp-flowspec-ddos-mitigation/index.md): mitigazione DDoS a monte, community BLACKHOLE (RFC 7999), Flowspec (RFC 8955), configurazioni FRR e BIRD con prefix-list `/32` (2026-11-03).
 - [BGP route leak: ruoli, OTC e ASPA](../../content/post/bgp-route-leaks-roles-aspa/index.md): valley-free con KaTeX, BGP Roles e attributo OTC (RFC 9234), configurazione FRR `local-role`, ASPA e lab con soluzione (2026-11-04).
+- [OSPF sotto attacco](../../content/post/ospf-security-authentication/index.md): adiacenze false e LSA injection con scapy, costo SPF con KaTeX, HMAC-SHA (RFC 5709) con key-chain FRR, passive-interface e filtri nftables (2026-11-05).
 
 ## Not yet specified
 
