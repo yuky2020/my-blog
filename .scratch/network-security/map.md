@@ -58,6 +58,7 @@ e il lavoro è in push sul repo.
 - [RTBH e BGP Flowspec](../../content/post/rtbh-bgp-flowspec-ddos-mitigation/index.md): mitigazione DDoS a monte, community BLACKHOLE (RFC 7999), Flowspec (RFC 8955), configurazioni FRR e BIRD con prefix-list `/32` (2026-11-03).
 - [BGP route leak: ruoli, OTC e ASPA](../../content/post/bgp-route-leaks-roles-aspa/index.md): valley-free con KaTeX, BGP Roles e attributo OTC (RFC 9234), configurazione FRR `local-role`, ASPA e lab con soluzione (2026-11-04).
 - [OSPF sotto attacco](../../content/post/ospf-security-authentication/index.md): adiacenze false e LSA injection con scapy, costo SPF con KaTeX, HMAC-SHA (RFC 5709) con key-chain FRR, passive-interface e filtri nftables (2026-11-05).
+- [SYN flood e SYN cookies](../../content/post/syn-flood-syn-cookies/index.md): backlog e tempo di permanenza con KaTeX, SYN cookies, sysctl, nftables synproxy e lab con soluzione (2026-11-06).
 
 ## Not yet specified
 
