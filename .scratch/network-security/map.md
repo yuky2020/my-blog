@@ -29,6 +29,7 @@ e il lavoro è in push sul repo.
 - [Sistema di commenti](issues/03-comments.md): resta Disqus.
 - [Schema e funzionalità dei capitoli](issues/04-chapter-shape.md): schema in 6 sezioni, archetype, tassonomia controllata.
 - [Build con Hugo latest](issues/05-hugo-latest-build.md): permesso HTML in `content/` e date dei `week_*` corrette; build verde.
+- [SSH Certificates](../../content/post/ssh-certificates-ca/index.md): autenticazione SSH a breve vita con CA SSH (`ssh-keygen -s`, `TrustedUserCAKeys`), alternativa alle chiavi statiche di `authorized_keys`.
 - [Capitoli 00 e 01](issues/06-chapters-00-01.md): roadmap e threat modeling scritti, build verde.
 - [Ambiente di laboratorio per i capitoli](issues/11-lab-environment.md): containerlab + Open vSwitch per 02–10; GNS3 solo per DTP/CAM Cisco; VM libvirt per il cap. 11.
 - [Calendario di pubblicazione](issues/07-publishing-schedule.md): settimanale di martedì, tutti retrodatati; serie 2026-07-21 → 2026-10-06; build esterna.
