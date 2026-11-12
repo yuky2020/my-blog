@@ -62,6 +62,7 @@ e il lavoro è in push sul repo.
 - [SYN flood e SYN cookies](../../content/post/syn-flood-syn-cookies/index.md): backlog e tempo di permanenza con KaTeX, SYN cookies, sysctl, nftables synproxy e lab con soluzione (2026-11-06).
 - [SSL stripping e HSTS](../../content/post/hsts-ssl-stripping/index.md): downgrade HTTPS→HTTP con bettercap, finestra di esposizione HSTS con KaTeX, preload list, rollout graduale e config nginx (2026-11-09).
 - [QUIC e HTTP/3](../../content/post/quic-http3-security/index.md): UDP/443, Initial decifrabili, anti-amplification (fattore ≤ 3, KaTeX), Retry token, nginx `quic_retry`, nftables `reject` su UDP/443 (2026-11-10).
+- [TCP RST injection e RFC 5961](../../content/post/tcp-reset-injection-rfc5961/index.md): attacchi blind in-window, pacchetti necessari con KaTeX, challenge ACK, TCP-AO, GTSM e filtri nftables con lab e soluzione (2026-11-12).
 
 ## Not yet specified
 
