@@ -64,6 +64,7 @@ e il lavoro è in push sul repo.
 - [QUIC e HTTP/3](../../content/post/quic-http3-security/index.md): UDP/443, Initial decifrabili, anti-amplification (fattore ≤ 3, KaTeX), Retry token, nginx `quic_retry`, nftables `reject` su UDP/443 (2026-11-10).
 - [TCP RST injection e RFC 5961](../../content/post/tcp-reset-injection-rfc5961/index.md): attacchi blind in-window, pacchetti necessari con KaTeX, challenge ACK, TCP-AO, GTSM e filtri nftables con lab e soluzione (2026-11-12).
 - [VXLAN e EVPN](../../content/post/vxlan-evpn-overlay-security/index.md): incapsulamento senza autenticazione, VTEP spoofing e flood-and-learn con scapy, allowlist nftables su UDP/4789 e EVPN (BGP) come control plane verificabile, lab con soluzione (2026-11-13). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
+- [LLMNR, mDNS e NBT-NS poisoning](../../content/post/llmnr-mdns-poisoning/index.md): fallback di name resolution multicast, risposte non autenticate, cattura NetNTLMv2 con Responder, disattivazione via GPO/systemd-resolved, filtri nftables e canary di rilevazione, lab con soluzione (2026-11-16). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 
 ## Not yet specified
 
