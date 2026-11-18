@@ -66,6 +66,7 @@ e il lavoro è in push sul repo.
 - [VXLAN e EVPN](../../content/post/vxlan-evpn-overlay-security/index.md): incapsulamento senza autenticazione, VTEP spoofing e flood-and-learn con scapy, allowlist nftables su UDP/4789 e EVPN (BGP) come control plane verificabile, lab con soluzione (2026-11-13). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [LLMNR, mDNS e NBT-NS poisoning](../../content/post/llmnr-mdns-poisoning/index.md): fallback di name resolution multicast, risposte non autenticate, cattura NetNTLMv2 con Responder, disattivazione via GPO/systemd-resolved, filtri nftables e canary di rilevazione, lab con soluzione (2026-11-16). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [DNS rebinding](../../content/post/dns-rebinding-attacks/index.md): same-origin policy legata al nome, rebinding con DNS a TTL basso, tempi con KaTeX, filtro `private-address` in Unbound/dnsmasq, validazione dell'header Host in nginx, lab con soluzione (2026-11-17). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
+- [Egress filtering ed esfiltrazione](../../content/post/egress-filtering-data-exfiltration/index.md): default-deny in uscita, tempo di esfiltrazione con KaTeX, canali HTTPS/DNS/SSH, nftables + proxy esplicito Squid, flow record IPFIX e lab con soluzione (2026-11-18). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 
 ## Not yet specified
 
