@@ -67,6 +67,7 @@ e il lavoro è in push sul repo.
 - [LLMNR, mDNS e NBT-NS poisoning](../../content/post/llmnr-mdns-poisoning/index.md): fallback di name resolution multicast, risposte non autenticate, cattura NetNTLMv2 con Responder, disattivazione via GPO/systemd-resolved, filtri nftables e canary di rilevazione, lab con soluzione (2026-11-16). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [DNS rebinding](../../content/post/dns-rebinding-attacks/index.md): same-origin policy legata al nome, rebinding con DNS a TTL basso, tempi con KaTeX, filtro `private-address` in Unbound/dnsmasq, validazione dell'header Host in nginx, lab con soluzione (2026-11-17). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [Egress filtering ed esfiltrazione](../../content/post/egress-filtering-data-exfiltration/index.md): default-deny in uscita, tempo di esfiltrazione con KaTeX, canali HTTPS/DNS/SSH, nftables + proxy esplicito Squid, flow record IPFIX e lab con soluzione (2026-11-18). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
+- [Frammentazione IP](../../content/post/ip-fragmentation-attacks/index.md): frammenti tiny e overlapping, numero di frammenti con KaTeX, scapy, deframmentazione conntrack, filtri nftables e policy di reassembly Suricata, lab con soluzione (2026-11-19). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 
 ## Not yet specified
 
