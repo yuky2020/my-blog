@@ -68,6 +68,7 @@ e il lavoro è in push sul repo.
 - [DNS rebinding](../../content/post/dns-rebinding-attacks/index.md): same-origin policy legata al nome, rebinding con DNS a TTL basso, tempi con KaTeX, filtro `private-address` in Unbound/dnsmasq, validazione dell'header Host in nginx, lab con soluzione (2026-11-17). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [Egress filtering ed esfiltrazione](../../content/post/egress-filtering-data-exfiltration/index.md): default-deny in uscita, tempo di esfiltrazione con KaTeX, canali HTTPS/DNS/SSH, nftables + proxy esplicito Squid, flow record IPFIX e lab con soluzione (2026-11-18). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [Frammentazione IP](../../content/post/ip-fragmentation-attacks/index.md): frammenti tiny e overlapping, numero di frammenti con KaTeX, scapy, deframmentazione conntrack, filtri nftables e policy di reassembly Suricata, lab con soluzione (2026-11-19). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
+- [Revoca dei certificati](../../content/post/certificate-revocation-ocsp-stapling/index.md): CRL e OCSP, soft-fail, OCSP stapling, Must-Staple (RFC 7633), finestra di esposizione con KaTeX, certificati a vita breve, nginx e openssl, lab con soluzione (2026-11-20). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 
 ## Not yet specified
 
