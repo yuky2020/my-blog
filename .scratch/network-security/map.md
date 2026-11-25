@@ -71,6 +71,7 @@ e il lavoro è in push sul repo.
 - [Revoca dei certificati](../../content/post/certificate-revocation-ocsp-stapling/index.md): CRL e OCSP, soft-fail, OCSP stapling, Must-Staple (RFC 7633), finestra di esposizione con KaTeX, certificati a vita breve, nginx e openssl, lab con soluzione (2026-11-20). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [Rate limiting e ban automatici](../../content/post/rate-limiting-fail2ban-crowdsec/index.md): token bucket con KaTeX, meter nftables con set dinamici, fail2ban, CrowdSec, `limit_req` con 429 (RFC 6585), lab con soluzione (2026-11-23). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [SSH tunneling e pivoting](../../content/post/ssh-tunneling-pivoting/index.md): local/remote/dynamic forwarding, pivot da host compromesso, throughput TCP-over-TCP con KaTeX, `AllowTcpForwarding`/`PermitOpen`/`Match`, nftables per utente e lab con soluzione (2026-11-24). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
+- [Network TAP, SPAN e port mirroring](../../content/post/network-tap-span-mirroring/index.md): TAP vs SPAN vs `tc mirred`, oversubscription con KaTeX, evasione per saturazione e sniffing sulla porta di monitoraggio, hardening dell'interfaccia di cattura, Suricata af-packet e lab con soluzione (2026-11-25). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 
 ## Not yet specified
 
