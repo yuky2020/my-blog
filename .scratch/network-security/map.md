@@ -74,6 +74,7 @@ e il lavoro è in push sul repo.
 - [SSH tunneling e pivoting](../../content/post/ssh-tunneling-pivoting/index.md): local/remote/dynamic forwarding, pivot da host compromesso, throughput TCP-over-TCP con KaTeX, `AllowTcpForwarding`/`PermitOpen`/`Match`, nftables per utente e lab con soluzione (2026-11-24). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [Network TAP, SPAN e port mirroring](../../content/post/network-tap-span-mirroring/index.md): TAP vs SPAN vs `tc mirred`, oversubscription con KaTeX, evasione per saturazione e sniffing sulla porta di monitoraggio, hardening dell'interfaccia di cattura, Suricata af-packet e lab con soluzione (2026-11-25). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 - [TACACS+ e RADIUS: AAA per gli apparati di rete](../../content/post/tacacs-radius-aaa-network-devices/index.md): differenze TACACS+/RADIUS, offuscamento MD5 con KaTeX, Blast-RADIUS (CVE-2024-3596), fallback locale e accounting dei comandi, lab con soluzione (2026-11-26). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
+- [TLS 1.3 0-RTT e replay](../../content/post/tls-0rtt-replay-attacks/index.md): early data, assenza di forward secrecy e replay, anti-replay di RFC 8446, Bloom filter con KaTeX, header Early-Data e 425 Too Early (RFC 8470), nginx e lab con soluzione (2026-11-27). Cover copiata da un altro post: `rsvg-convert` non disponibile nell'ambiente di questa sessione.
 
 ## Not yet specified
 
