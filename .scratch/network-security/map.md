@@ -37,6 +37,7 @@ e il lavoro è in push sul repo.
 - [Fatti tecnici e stesura dei capitoli](issues/13-write-chapter-02.md): scritti tutti i capitoli 02–11; build verde 447 pagine.
 - [Articoli extra oltre la serie](issues/16-extra-articles.md): SSH hardening, WPA3, 802.1X/NAC, mTLS, eBPF.
 - [Articoli extra, secondo lotto](issues/17-extra-articles-batch-2.md): DHCP snooping/DAI, SPF/DKIM/DMARC, microsegmentazione, SIEM, DNS tunneling.
+- [Citare OpenSASE nei prossimi articoli](issues/18-mention-opensase.md): quando l'argomento è pertinente (SASE, ZTNA, WireGuard PQ, mTLS/SPIFFE, DLP, TLS inspection), citare il progetto open source dell'utente `yuky2020/opensase` con un link reale, senza forzarlo né duplicare i post `sase`/`sase-e-zero-trust`/`wireguard-vpn`.
 - [Certificate Transparency](../../content/post/certificate-transparency/index.md): log pubblici, SCT, Merkle tree, CAA e monitoring (2026-10-09).
 - [Encrypted Client Hello](../../content/post/encrypted-client-hello/index.md): SNI in chiaro, HPKE, record HTTPS e impatto su firewall/IDS (2026-10-10).
 - [Honeypot e deception](../../content/post/honeypots-and-deception/index.md): honeypot, honeytoken, Cowrie, isolamento con nftables e alert al SIEM (2026-10-12).
